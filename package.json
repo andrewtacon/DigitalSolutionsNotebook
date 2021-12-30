@@ -4,6 +4,8 @@
   "description": "HTML, Javascript (including P5js) and SQL notebook.",
   "version": "0.1.0",
   "publisher": "AndrewTacon",
+  "license": "MIT",
+  "repository": {"url": "https://github.com/andrewtacon/DigitalSolutionsNotebook"},
   "engines": {
     "vscode": "^1.63.0"
   },
