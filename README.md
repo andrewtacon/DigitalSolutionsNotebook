@@ -4,6 +4,8 @@
 This is a notebook extension that runs HTML, Javascript (including P5.js) and SQL.
 Files need to have an extension *.dsnote to be recognised by the notebook.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cEEfh6m_9lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3>HTML</h3>
 
 Notebook can display almost any HTML, CSS and JS scripting in tags. Image files can be placed in the same folder as the notebook and referenced by name and they render. All html is referenced in the global scope of the notebook so changes can be made to the look of the entire workbook with CSS.
