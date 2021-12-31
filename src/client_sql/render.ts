@@ -236,7 +236,7 @@ function dictionaryRenderer(data: any) {
     for (let j=0; j<data[i].data.length; j++){
       let field = data[i].data[j];
       let pk = field.pk ? "&check;" :"";
-      let fk = field.pk ? "&check;" :"";
+      let fk = (field.fk.length>0) ? "&check;" :"";
       let notnull = field.notnull ? "&check;" :"";
       let unique = field.unique ? "&check;" :"";
       render+=`<tr>`;
