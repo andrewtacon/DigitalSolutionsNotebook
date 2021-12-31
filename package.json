@@ -2,7 +2,7 @@
   "name": "digitalsolutions",
   "displayName": "Digital Solutions",
   "description": "HTML, Javascript (including P5js) and SQL notebook.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "AndrewTacon",
   "license": "MIT",
   "repository": {"url": "https://github.com/andrewtacon/DigitalSolutionsNotebook"},
