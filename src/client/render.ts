@@ -125,7 +125,7 @@ export async function render({ container, mime, value, context }: IRenderInfo) {
   if (value.search(/function\s+setup/) === -1 && value.search(/function\s+draw/) === -1) {
     code = `
       function setup() {
-        createCanvas(100,100);
+        createCanvas(480,270);
       }
 
       function draw(){
@@ -138,7 +138,7 @@ export async function render({ container, mime, value, context }: IRenderInfo) {
   } else if (value.search(/function\s+setup/) === -1 && value.search(/function\s+draw/) !== -1) {
     code = `
       function setup() {
-        createCanvas(100,100);
+        createCanvas(480,270);
       }
       
       ${value};  
